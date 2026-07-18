@@ -1,7 +1,11 @@
 {
   "name": "trie-app",
   "version": "0.1.0",
-  "description": "trie desktop — graph-based code editor powered by trie + opencode",
+  "description": "trie desktop — experimental attention-map editor built on trie + opencode. Requires the trie package (uv tool install trie).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/computer-reinvention/trie-app.git"
+  },
   "private": true,
   "main": "out/main/main.js",
   "scripts": {

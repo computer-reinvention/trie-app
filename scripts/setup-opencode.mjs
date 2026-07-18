@@ -12,7 +12,7 @@ import { fileURLToPath } from "url"
 import { homedir } from "os"
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const repoRoot = resolve(__dirname, "..", "..")
+const repoRoot = resolve(__dirname, "..")
 const forkDir = resolve(repoRoot, "opencode", "packages", "opencode")
 
 if (!existsSync(resolve(forkDir, "src", "index.ts"))) {
